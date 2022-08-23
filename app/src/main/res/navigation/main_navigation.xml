@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.shopper.app.HomeFragment"
+        android:name="com.shopper.app.ui.home.HomeFragment"
         android:label="HomeFragment" >
         <action
             android:id="@+id/action_home_to_product_detail"
@@ -14,14 +14,14 @@
     </fragment>
     <fragment
         android:id="@+id/navigation_cart"
-        android:name="com.shopper.app.CartFragment"
+        android:name="com.shopper.app.ui.CartFragment"
         android:label="CartFragment" />
     <fragment
         android:id="@+id/navigation_category"
-        android:name="com.shopper.app.MapFragment"
+        android:name="com.shopper.app.ui.MapFragment"
         android:label="MapFragment" />
     <fragment
         android:id="@+id/navigation_product_detail"
-        android:name="com.shopper.app.ProductDetailFragment"
+        android:name="com.shopper.app.ui.ProductDetailFragment"
         android:label="ProductDetailFragment" />
 </navigation>

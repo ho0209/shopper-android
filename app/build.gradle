@@ -28,7 +28,11 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
     kotlinOptions {
+        freeCompilerArgs = ['-Xjvm-default=enable']
         jvmTarget = '1.8'
+    }
+    dataBinding {
+        enabled = true
     }
 }
 
@@ -47,6 +51,8 @@ dependencies {
     implementation "androidx.viewpager2:viewpager2:1.0.0"
 
     implementation 'com.google.code.gson:gson:2.9.1'
+
+    implementation "androidx.fragment:fragment-ktx:1.5.2"
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
