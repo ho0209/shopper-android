@@ -18,7 +18,7 @@
         android:label="CartFragment" />
     <fragment
         android:id="@+id/navigation_category"
-        android:name="com.shopper.app.ui.MapFragment"
+        android:name="com.shopper.app.ui.category.CategoryFragment"
         android:label="MapFragment" />
     <fragment
         android:id="@+id/navigation_product_detail"

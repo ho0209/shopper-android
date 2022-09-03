@@ -15,6 +15,6 @@
     <item>
         <bitmap
             android:gravity="center"
-            android:src="@drawable/shopperlog_001" />
+            android:src="@drawable/shopper_final_logo" />
     </item>
 </layer-list>

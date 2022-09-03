@@ -1,4 +1,4 @@
-package com.shopper.app.repository
+package com.shopper.app.repository.home
 
 import com.shopper.app.model.HomeData
 
