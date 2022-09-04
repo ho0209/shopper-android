@@ -15,7 +15,7 @@ interface ApiClient {
 
     companion object {
 
-       private const val baseUrl = "https://shopper-57197-default-rtdb.asia-southeast1.firebasedatabase.app/"
+       private const val baseUrl = "https://shopper-57197-default-rtdb.asia-southeast1.firebasedatabase.app"
 
         fun create(): ApiClient{
 
