@@ -6,7 +6,7 @@
     <data>
         <variable
             name="banner"
-            type="com.shopper.app.Banner" />
+            type="com.shopper.app.model.Banner" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

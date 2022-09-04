@@ -124,28 +124,28 @@
       "items": [
         {
           "label": "[19차 리오더] 페이크 레더 숏 테일러 자켓 블랙",
-          "discountRate": 10,
+          "discount_rate": 10,
           "price": 90000,
           "representative_image_url": "https://user-images.githubusercontent.com/110481093/188301083-bd684357-b270-48f1-ad56-7961166cc8da.png",
           "product_id": "jacket_1"
         },
         {
           "label": "캐시미어 100% 터틀넥 스웨터",
-          "discountRate": 15,
+          "discount_rate": 15,
           "price": 70000,
           "representative_image_url": "https://user-images.githubusercontent.com/110481093/188301086-efe6eb3c-d019-4224-bf03-be3ca3a3e68c.png",
           "product_id": "sweater_1"
         },
         {
           "label": "반팔 스트라이프 스웨터",
-          "discountRate": 20,
+          "discount_rate": 20,
           "price": 30000,
           "representative_image_url": "https://user-images.githubusercontent.com/110481093/188301087-b9328d8d-d210-438c-8b2b-aa7d48d8dccd.png",
           "product_id": "sweater_2"
         },
         {
           "label": "화이트 스포츠 점퍼",
-          "discountRate": 20,
+          "discount_rate": 20,
           "price": 150000,
           "representative_image_url": "https://user-images.githubusercontent.com/110481093/188301075-d01237b4-4ee7-41bb-845a-7f2e9cfa7a08.png",
           "product_id": "sports_1"
