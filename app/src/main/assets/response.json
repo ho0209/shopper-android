@@ -119,34 +119,37 @@
     },
     "promotions": {
       "title": {
-        "text": "추천상품"
+        "text": "층별안내"
       },
       "items": [
         {
-          "label": "[19차 리오더] 페이크 레더 숏 테일러 자켓 블랙",
+          "label": "과일/정육/음료/해산물",
           "discount_rate": 10,
           "price": 90000,
+          "floor": "1층",
           "representative_image_url": "https://user-images.githubusercontent.com/110481093/188301083-bd684357-b270-48f1-ad56-7961166cc8da.png",
           "product_id": "jacket_1"
         },
         {
-          "label": "캐시미어 100% 터틀넥 스웨터",
+          "label": "완구/디지털/의류",
           "discount_rate": 15,
           "price": 70000,
+          "floor": "2층",
           "representative_image_url": "https://user-images.githubusercontent.com/110481093/188301086-efe6eb3c-d019-4224-bf03-be3ca3a3e68c.png",
           "product_id": "sweater_1"
         },
         {
-          "label": "반팔 스트라이프 스웨터",
+          "label": "가구/침구",
           "discount_rate": 20,
-          "price": 30000,
+          "floor": "3층",
           "representative_image_url": "https://user-images.githubusercontent.com/110481093/188301087-b9328d8d-d210-438c-8b2b-aa7d48d8dccd.png",
           "product_id": "sweater_2"
         },
         {
-          "label": "화이트 스포츠 점퍼",
+          "label": "병원/약국/미용실",
           "discount_rate": 20,
           "price": 150000,
+          "floor": "4층",
           "representative_image_url": "https://user-images.githubusercontent.com/110481093/188301075-d01237b4-4ee7-41bb-845a-7f2e9cfa7a08.png",
           "product_id": "sports_1"
         }

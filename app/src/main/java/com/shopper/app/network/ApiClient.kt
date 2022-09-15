@@ -13,7 +13,7 @@ interface ApiClient {
     @GET("categories.json")
     suspend fun getCategories(): List<Category>
 
-    @GET("fashion_female.json")
+    @GET("map.json")
     suspend fun getCategoryDetail(): CategoryDetail
 
     companion object {

@@ -17,6 +17,7 @@ data class BannerBadge(
 data class Product(
     @SerializedName("brand_name") val brandName: String?,
     val label: String,
+    val floor: String?,
     @SerializedName("discount_rate") val discountRate: Int,
     val price: Int,
     @SerializedName("thumbnail_image_url") val thumbnailImageUrl: String?,

@@ -41,34 +41,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="15dp"
-                android:text="@{@string/unit_discount_rate(product.discountRate)}"
+                android:text="@{product.floor}"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/iv_promotion_image"
-                tools:text="10%" />
-
-            <TextView
-                android:id="@+id/tv_promotion_price"
-                style="@style/TextSubTitle1.Bold"
-                priceAmount="@{product.price}"
-                discountRate="@{product.discountRate}"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="6dp"
-                app:layout_constraintBottom_toBottomOf="@id/tv_promotion_discount_rate"
-                app:layout_constraintStart_toEndOf="@id/tv_promotion_discount_rate"
-                tools:text="99,800원" />
-
-
-            <TextView
-                android:id="@+id/tv_promotion_original_price"
-                style="@style/TextCaption1.Grey05"
-                priceAmount="@{product.price}"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="4dp"
-                app:layout_constraintBottom_toBottomOf="@id/tv_promotion_price"
-                app:layout_constraintStart_toEndOf="@id/tv_promotion_price"
-                tools:text="120,000원" />
+                tools:text="1층" />
 
             <TextView
                 android:id="@+id/tv_promotion_label"
@@ -84,7 +60,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/tv_promotion_original_price"
+                app:layout_constraintTop_toBottomOf="@id/tv_promotion_discount_rate"
                 tools:text="스피커" />
 
 
