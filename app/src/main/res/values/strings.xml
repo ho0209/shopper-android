@@ -14,4 +14,6 @@
     <string name="description_home_banner_image">홈화면 배너 이미지</string>
     <string name="description_home_banner_thumbnail">홈화면 배너 썸네일</string>
     <string name="label_category_new">NEW</string>
+    <string name="product_discount_price">쿠폰적용가</string>
+    <string name="product_put">장바구니 담기</string>
 </resources>

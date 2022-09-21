@@ -2,19 +2,24 @@ package com.shopper.app.network
 
 import com.shopper.app.model.Category
 import com.shopper.app.model.CategoryDetail
+import com.shopper.app.model.Product
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.http.GET
+import retrofit2.http.Path
 
 interface ApiClient {
 
     @GET("categories.json")
     suspend fun getCategories(): List<Category>
 
-    @GET("map.json")
+    @GET("fashion_female.json")
     suspend fun getCategoryDetail(): CategoryDetail
+
+    @GET("products/{productId}.json")
+    suspend fun getProductDetail(@Path("productId") productId: String): Product
 
     companion object {
 
