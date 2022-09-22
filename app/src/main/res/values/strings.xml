@@ -6,14 +6,22 @@
 
     <string name="label_category">지도/카테고리</string>
     <string name="label_home_icon">홈</string>
-    <string name="label_cart_icon">장바구니</string>
+    <string name="label_cart">장바구니</string>
 
     <string name="unit_discount_rate">%d%%</string>
     <string name="unit_discount_currency">%s원</string>
+
+    <string name="description_cart_item_thumbnail">장바구니에 추가한 상품의 썸네일 이미지</string>
+    <string name="description_btn_delete_cart_item">장바구니 상품 삭제 버튼</string>
+    <string name="description_btn_minus_cart_item">장바구니 상품 갯수 차감 버튼</string>
+    <string name="description_btn_plus_cart_item">장바구니 상품 갯수 증가 버튼</string>
 
     <string name="description_home_banner_image">홈화면 배너 이미지</string>
     <string name="description_home_banner_thumbnail">홈화면 배너 썸네일</string>
     <string name="label_category_new">NEW</string>
     <string name="product_discount_price">쿠폰적용가</string>
     <string name="product_put">장바구니 담기</string>
+
+    <string name="label_cart_purchase_button">결제하기</string>
+
 </resources>

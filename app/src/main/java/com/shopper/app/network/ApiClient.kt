@@ -3,6 +3,7 @@ package com.shopper.app.network
 import com.shopper.app.model.Category
 import com.shopper.app.model.CategoryDetail
 import com.shopper.app.model.Product
+import com.shopper.app.model.TopSelling
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
